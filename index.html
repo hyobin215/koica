@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOICA</title>
+
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font.css"/>
+
+    <!--XICON 연결-->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <!--헤더-->
+    <header class="clearfix">
+        <div id="header_box">
+            <div id="header_top" class="inner">
+                <div id="logo">
+                    <h1><a href="index.html" target="_parent"><img src="images/header/logo_w.png" alt="KOICA"></a></h1>
+                </div><!--end: #logo-->
+    
+                <div class="search_bar">
+                    <form class="search" action="" method="get">
+                        <input class="search_text" type="text" name="" placeholder="원하시는 정보를 입력해 주세요."/>
+                        <button class="search_btn" type="submit"><image src="images/header/search_w.png"/></button>
+                    </form><!--end: .search_bar-->
+                </div>
+    
+                <div id="top_menu">
+                    <ul>
+                        <li><a href="sub_renewal_info.html" target="_parent">HOME</a></li>
+                        <li><a href="sub_renewal_info.html" target="_parent">로그인</a></li>
+                        <li><a href="sub_renewal_info.html" target="_parent">회원가입</a></li>
+                        <li><a href="sub_renewal_info.html" target="_parent">ENG</a></li>
+                    </ul><!--end: #top_menu-->
+                </div>
+
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">ODA 지식</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">KOICA 오픈데이터포털</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">ODA 도서관</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">국제개발협력 용어집</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">지식서비스</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">개발협력동향</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">연구보고서</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">ODA연구 알리미</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">주요사업</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">사업전략 및 정책</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">추진방향</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">추진실적</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">분야별 지원현황</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">지역별 지원현황</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">형태별 지원현황</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">사업평가</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">ABC 프로그램</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">국민참여·일자리</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">전체일정</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">기관공모</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">입찰정보</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">개발협력 일자리</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">행사</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">교육 및 자격시험</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">유관기관공지</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">알람·홍보</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">공지사항</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">KOICA 보도자료</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">해외 ODA 활동</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">해외 ODA 사진</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">홍보자료</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">고객과 통(通)</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">고객의 소리</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">국민제안방</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">기업성장응답센터</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">고객신고</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">설문조사</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">KOICA 견학</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">편의시설 이용신청</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">제증명서 발급센터</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub_renewal_info.html" target="_parent" class="menu_color">정보공개</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub_renewal_info.html" target="_parent">정보공개 제도 및 청구</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">정보목록</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">사전정보공표</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">공공 정보 개방</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">사업실명제</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">예결산 현황</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">기타공개</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                        <li><a href="sub.html" target="_parent" class="menu_color">KOICA 소개</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="sub.html" target="_parent">KOICA</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">인권경영</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">ESG 경영</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">윤리준법경영</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">고객만족경영</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">안전경영</a></li>
+                                    <li><a href="sub_renewal_info.html" target="_parent">경영공시</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                    </ul>
+                </nav><!--end: #gnb-->
+            </div>
+        </div>
+    </header>
+
+    <!--메인-->
+    <div id="wrap">
+        <main class="container">
+            <section id="main_view" class="sec">
+                <div class="bg-video">
+                    <video class="bg-video_content" autoplay muted loop>
+                        <source src="images/main_video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <h3>미래를 향한 작은 발걸음</h3>
+                <span>
+                    KOICA는 아이들이 행복하고 건강하게 자랄 수 있는 세상을 만듭니다.<br/>
+                    우리의 내일은 이들의 꿈 속에 있습니다.
+                </span>
+
+                <div id="scroll"><p><img src="images/main_view/scroll_btn.png" alt=""/></p></div>
+            </section><!--end: #main_view-->
+
+            <!--SECTION 01-->
+            <section id="section01" class="sec inner">
+                <div id="map_info_position">
+                    <div id="map_info">
+                        <p>KOICA 해외사무소 지도</p>
+                        <p>지도의 점을 클릭하면 해당 나라의 사이트로 접속이 가능합니다.</p>
+                    </div>
+                    <div class="search_bar">
+                        <form class="search" action="" method="get">
+                            <input class="search_text" type="text" name="" placeholder="원하시는 지역을 입력해 주세요." maxlength="15"/>
+                            <button class="search_btn" type="submit"><img src="images/header/search.png"/></button>
+                        </form><!--end: .search_bar-->
+                    </div>
+                </div>
+                <div id="worldmap_load">
+                    <!--수정하기-->
+                    <!--<iframe id="map" src="worldmap.html" width="1800" height="1800"></iframe>-->
+                    <div id="info_box">
+                        <p class="country_name"></p>
+                        <p class="office_name"></p>
+                        <p class="address"></p>
+                        <p class="phone_number"></p>
+                        <p class="email"></p>
+                    </div>
+                    <div id><img src="images/worldmap.svg" alt="세계지도"></div>
+                    <ul>
+                        <li><span class="dot1" data-name="과테말라" data-office=" KOICA Guatemala Office" data-phone="Tel : +502-2382-4061~2" data-email="Fax : +502-2382-4063" data-address="5 Ave. 5-55, Europlaza World Business Center, Torre3, Nivel 7, Zona 14, Ciudad de Guatemala"></span></li>
+                        <li><span class="dot2" data-name="엘사바도르"  data-office="KOICA El Salvador Office" data-phone="Tel : + 503-2252-6131~2" data-email="Fax : + 503-2252-6133" data-address="Calle El Mirador y 87 Avenida Norte, Edificio Torre Futura,Nivel 10, Local 3, Colonia Escalon, San Salvador"></span></li>
+                        <li><span class="dot3" data-name="도미니카공화국" data-office="KOICA Dominican Republic Office" data-phone="Tel : +1-809-951-4451" data-email="Fax : +1-809-247-9606" data-address="Calle Helios 116, Bella Vista Sur, Santo Domingo"></span></li>
+                        <li><span class="dot4" data-name="콜롬비아" data-office="KOICA Colombia Office" data-phone="Tel : +57-1-743-2123" data-email="Fax : +57-1-743-2546" data-address="CR 7 # 113-43 Oficina 1806 (Torre Samsung), Bogota"></span></li>
+                        <li><span class="dot5" data-name="에콰도르" data-office="KOICA Ecuador Office" data-phone="Tel : +(593 2)255-8437" data-email="Fax : +(593 2)255-9029" data-address="Av. 12 de Octubre N24-660 y Francisco Salazar, Edif.Concorde, Piso 3, Quito"></span></li>
+                        <li><span class="dot6" data-name="페루" data-office="KOICA Peru Office" data-phone="Tel : +51 1 6275050 Anexo 1" data-email="Fax : +51 1 6275054" data-address="Av. Juan de Arona 720, Oficina 801, San isidro, Lima"></span></li>
+                        <li><span class="dot7" data-name="볼리비아" data-office="KOICA Bolivia Office" data-phone="Tel : +591-2297-1576" data-email="Fax : +591-2297-1578" data-address="Calle 18 de Calacoto edificio Parque 18 piso 6 oficina 601"></span></li>
+                        <li><span class="dot8" data-name="파라과이" data-office="KOICA Paraguay Office" data-phone="Tel : +595-21-602-645" data-email="Fax: +595-21-606-580" data-address="Avenida Aviadores del Chaco 2050 Edificio World Trade Center Torre 1, Piso 15"></span></li>
+                    </ul>
+                </div>
+            </section><!--end: #section01-->
+
+            <!--SECTION 02-->
+            <section id="section02" class="sec inner">
+                <div id="koica_info">
+                    <p id="koica_head_bottom">우리 KOICA는 국제 사회의 <span>평화와 번영</span>을 생각합니다.</p>
+                    <div id="koica_swiper">
+                        <ul class="koica_wrap">
+                            <li class="koica_info_img">
+                                <div class="koica_info_img_gradient"></div>
+                                <img src="images/section02/image1.jpg" alt=""/>
+                                <div class="koica_info_text">
+                                    <p>개발도상국의 빈곤 감소 및 삶의 질 향상</p>
+                                    <p>
+                                        KOICA는 약 174개의 국가에 무상원조를 하였으며,<br/>
+                                        개발도상국이 제 2의 한국이 되어 더욱 더 도약할 수 있도록 발빠르게 움직이고 있습니다.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="koica_info_img">
+                                <div class="koica_info_img_gradient"></div>
+                                <img src="images/section02/image3.jpg" alt=""/>
+                                <div class="koica_info_text">
+                                    <p>여성, 아동, 장애인, 청소년의 인권향상</p>
+                                    <p>
+                                        KOICA는 여성, 아동, 장애인, 청소년 등의<br/>
+                                        사회적 약자를 위해 발벗고 나서고 있습니다.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=".swiper-pagination"></div>
+                </div>
+
+                <div id="koica_info2">
+                    <div class="koica_info_etc">
+                        <div id="open_data_info">
+                            <div class="character ch01"><img src="images/section02/ca1.png"/></div>
+                            <div class="koica_move">
+                                <div class="koica_move_position">
+                                    <p>국가별 지원현황을 알고 싶으신가요?</p>
+                                    <button class="move_btn1"><a href="sub_renewal_info.html" target="_parent"><span>KOICA 오픈데이터포털 바로가기</span></a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="overseas_volunteer_info">
+                            <div class="character ch02"><img src="images/section02/ca2.png"/></div>
+                            <div class="koica_move">
+                                <div class="koica_move_position">
+                                    <p>KOICA 해외 봉사단에 관심이 있으신가요?</p>
+                                    <button class="move_btn2"><a href="sub_renewal_info.html" target="_parent"><span>KOICA 해외 봉사단 바로가기</span></a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="oda_info">
+                            <div class="character ch03"><img src="images/section02/ca3.png"/></div>
+                            <div class="koica_move">
+                                <div class="koica_move_position">
+                                    <p>ODA 자격증에 대해 알고 싶으신가요?</p>
+                                    <button class="move_btn3"><a href="sub_renewal_info.html" target="_parent"><span>KOICA ODA 교육원 바로가기</span></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!--end: #section02-->
+
+            <!--SECTION 03-->
+            <section id="section03" class="sec inner">
+                <div id="board_flex">
+                    <div class="board">
+                        <div class="board_menu">
+                            <h2>KOICA 사업참여</h2>
+                            <div class="koica_board_top_menu">
+                                <div class="koica_board_btn">
+                                    <input id="bid_info_btn" type="radio" name="board_info" value="bid_info" checked>
+                                    <label for="bid_info_btn">입찰정보</label>
+                                </div>
+            
+                                <div class="koica_board_btn">
+                                    <input id="contest_btn" type="radio" name="board_info" value="contest">
+                                    <label for="contest_btn">기관공모</label>
+                                </div>
+            
+                                <div class="koica_board_btn">
+                                    <input id="edutest_btn" type="radio" name="board_info" value="edutest">
+                                    <label for="edutest_btn">교육/자격시험</button></label>
+                                </div>
+                                
+                                <div class="koica_board_btn">
+                                    <input id="organ_notice_btn" type="radio" name="board_info" value="organ_notice">
+                                    <label for="organ_notice_btn">유관기관공지</label>
+                                </div>
+                                
+                                <div class="koica_board_btn">
+                                    <input id="event_btn" type="radio" name="board_info" value="event">
+                                    <label for="event_btn">행사</label>
+                                </div>
+                                <button><a href="sub_renewal_info.html" target="_parent"><img src="images/section03/more_btn.png" alt="더보기"></a></button>
+                            </div>
+                        </div>
+                        <div class="board_content">
+                            <table class="board_table">
+                                <tbody>
+                                    <tr>
+                                        <td>D-7</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">인도네시아 바이오연료 활용정책에 대응 가능한 농기계 제조업체 선정</a></th>
+                                        <td>2024.08.27</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-7</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">인도네시아 바이오연료 활용정책에 대응 가능한 농기계 제조업체 선정</a></th>
+                                        <td>2024.08.27</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-7</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">인도네시아 바이오연료 활용정책에 대응 가능한 농기계 제조업체 선정</a></th>
+                                        <td>2024.08.27</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-7</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">인도네시아 바이오연료 활용정책에 대응 가능한 농기계 제조업체 선정</a></th>
+                                        <td>2024.08.27</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-7</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">인도네시아 바이오연료 활용정책에 대응 가능한 농기계 제조업체 선정</a></th>
+                                        <td>2024.08.27</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        
+                        <div id="directors">
+                            <div id="directors_img">
+                                <p><a href="sub_renewal_info.html" target="_parent"><img src="images/section03/jang.png" alt="장원삼이사장"/></a></p>
+                            </div>
+                            <div id="directors_text">
+                                <p>작은 의견도 귀담아 듣겠습니다!</p>
+                                <p>장원삼<span>이사장</span></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="board2">
+                        <div id="gallery">
+                            <h2>KOICA 소식</h2>
+                            <button><a href="sub_renewal_info.html" target="_parent"><img src="images/section03/more_btn.png" alt="더보기"></a></button>
+                        </div>
+                        
+                        <div id="gallery_content">
+                            <ul>
+                                <li class="gallery_content_li"><a href="sub_renewal_info.html" target="_parent">
+                                    <img src="images/section03/sosic1.png" alt="코이카, 국제개발협력 청렴문화 실천한다"/>
+                                    <p>보도자료</p>
+                                    <p>코이카, 국제개발협력 청렴문화 실천한다</p>
+                                    <p>2024.08.27</p>
+                                </a></li>
+
+                                <li class="gallery_content_li"><a href="sub_renewal_info.html" target="_parent"></a>
+                                    <img src="images/section03/sosic2.png" alt="코이카, 아프리카 식량위기 대응 원 팀 코리아 꾸린다"/>
+                                    <p>보도자료</p>
+                                    <p>코이카, 아프리카 식량위기 대응 원 팀 코리아 꾸린다</p>
+                                    <p>2024.08.27</p>
+                                </a></li>
+
+                                <li class="gallery_content_li"><a href="sub_renewal_info.html" target="_parent"></a>
+                                    <img src="images/section03/sosic3.png" alt="응답하라 1999 코이카에 타임머신이 등장했다? 코이카, 글로벌 서포터즈 위코 6기 발대식"/>
+                                    <p>보도자료</p>
+                                    <p>코이카, 글로벌 서포터즈 위코 6기 발대식</p>
+                                    <p>2024.08.27</p>
+                                </a></li>
+
+                                <li class="gallery_content_li"><a href="sub_renewal_info.html" target="_parent"></a>
+                                    <img src="images/section03/sosic4.png" alt="응답하라 1999 코이카에 타임머신이 등장했다? 코이카, 글로벌 서포터즈 위코 6기 발대식"/>
+                                    <p>보도자료</p>
+                                    <p>국제개발협력 선진화 평가 강화로 기틀 마련</p>
+                                    <p>2024.08.27</p>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section><!--emd: #section03-->
+
+            <!--SECTION 04-->
+            <section id="section04" class="sec">
+                <div id="overseas_volunteer">
+                    <h2>KOICA 해외봉사단</h2>
+    
+                    <div id="overseas_btns">
+                        <div class="overseas_btn">
+                            <input id="asia_btn" type="radio" name="country" value="asia" checked>
+                            <label for="asia_btn">아시아&nbsp;&ensp;<i class="xi-arrow-right"></i></label>
+                        </div>
+    
+                        <div class="overseas_btn">
+                            <input id="africa_btn" type="radio" name="country" value="africa">
+                            <label for="africa_btn">아프리카<i class="xi-arrow-right"></i></label>
+                        </div>
+    
+                        <div class="overseas_btn">
+                            <input id="america_btn" type="radio" name="country" value="america">
+                            <label for="america_btn">중남미&nbsp;&ensp;<i class="xi-arrow-right"></i></button></label>
+                        </div>
+                        
+                        <div class="overseas_btn">
+                            <input id="middleast_btn" type="radio" name="country" value="middleast">
+                            <label for="middleast_btn">중동&ensp;&ensp;&ensp;<i class="xi-arrow-right"></i></label>
+                        </div>
+                        
+                        <div class="overseas_btn">
+                            <input id="eurasia" type="radio" name="country" value="eurasia">
+                            <label for="eurasia">유라시아<i class="xi-arrow-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div id="overseas_contents">
+                        <ul class="container">
+                            <li class="overseas_info">
+                                <a href="sub_renewal_info.html" target="_parent">
+                                    <div class="img_filter"></div>
+                                    <img src="images/section04/image1.jpg" alt="2024 사업추진"/>
+                                    <p>「 2024 개인건축교육봉사 모집 안내 」</p>
+                                    <p>캄보디아</p>
+                                    <p>캄보디아 현지의 가난한 가정의 주택을 봉사단에서 건축하고 기증할 수 있는 프로그램 입니다. 건축에 대한 기초지식이 없어도 누구나 참여가능하며, 현지 초등학교에서 교육봉사도 함께 진행할 수 있습니다. 캄보디아의 가난한 주민의 주택을 직접 건축하고 아이들에게 교육봉사도 할 수 있는 기회이니 많은 지원을 부탁드립니다.</p>
+                                    <button><p>바로가기</p></button>
+                                </a>
+                            </li>
+
+                            <li class="overseas_info">
+                                <a href="sub_renewal_info.html" target="_parent">
+                                    <div class="img_filter"></div>
+                                    <img src="images/section04/image2.jpg" alt="2024 사업추진2"/>
+                                    <p>「 2024 개인건축교육봉사 모집 안내 」</p>
+                                    <p>캄보디아</p>
+                                    <p>캄보디아 현지의 가난한 가정의 주택을 봉사단에서 건축하고 기증할 수 있는 프로그램 입니다. 건축에 대한 기초지식이 없어도 누구나 참여가능하며, 현지 초등학교에서 교육봉사도 함께 진행할 수 있습니다. 캄보디아의 가난한 주민의 주택을 직접 건축하고 아이들에게 교육봉사도 할 수 있는 기회이니 많은 지원을 부탁드립니다.</p>
+                                    <button><p>바로가기</p></button>
+                                </a>
+                            </li>
+
+                            <li class="overseas_info">
+                                <a href="sub_renewal_info.html" target="_parent">
+                                    <div class="img_filter"></div>
+                                    <img src="images/section04/image3.jpg" alt="2024 사업추진2"/>
+                                    <p>「 2024 개인건축교육봉사 모집 안내 」</p>
+                                    <p>캄보디아</p>
+                                    <p>캄보디아 현지의 가난한 가정의 주택을 봉사단에서 건축하고 기증할 수 있는 프로그램 입니다. 건축에 대한 기초지식이 없어도 누구나 참여가능하며, 현지 초등학교에서 교육봉사도 함께 진행할 수 있습니다. 캄보디아의 가난한 주민의 주택을 직접 건축하고 아이들에게 교육봉사도 할 수 있는 기회이니 많은 지원을 부탁드립니다.</p>
+                                    <button><p>바로가기</p></button>
+                                </a>
+                            </li>
+
+                            <li class="overseas_info">
+                                <a href="sub_renewal_info.html" target="_parent">
+                                    <div class="img_filter"></div>
+                                    <img src="images/section04/image4.jpg" alt="2024 사업추진2"/>
+                                    <p>「 2024 개인건축교육봉사 모집 안내 」</p>
+                                    <p>캄보디아</p>
+                                    <p>캄보디아 현지의 가난한 가정의 주택을 봉사단에서 건축하고 기증할 수 있는 프로그램 입니다. 건축에 대한 기초지식이 없어도 누구나 참여가능하며, 현지 초등학교에서 교육봉사도 함께 진행할 수 있습니다. 캄보디아의 가난한 주민의 주택을 직접 건축하고 아이들에게 교육봉사도 할 수 있는 기회이니 많은 지원을 부탁드립니다.</p>
+                                    <button><p>바로가기</p></button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_pager"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section><!--end: #section04-->
+
+            <!--SECTION 05-->
+            <section id="section05" class="sec inner">
+                <div id="board_content2">
+                    <div id="board3">
+                        <div class="board_job_menu">
+                            <h2>채용·일자리</h2>
+                            <button><a href="sub_renewal_info.html" target="_parent"><img src="images/section03/more_btn.png" alt="더보기"></a></button>
+                        </div>
+                        <div class="board_job_content">
+                            <div class="board_jog_first_content">
+                                <p><img src="images/section05/senegal.png" alt="[국제기구] 세네갈 2026년 농업분야 신규 국별협력사업 형성기획 전문가 모집"/></p>
+                                <div class="first_contents">
+                                    <p>D-6</p>
+                                    <p>[국제기구] 세네갈 2026년 농업분야 신규 국별협력사업 형성기획 전문가 모집</p>
+                                    <p>한국국제협력단(KOICA)은 우리정부의 개발도상국에 대한 무상원조사업을 전담하고
+                                        있는<br/> 외교부 산하 준정부기관입니다. 세네갈 2026년 농업분야 신규사업 형성기획
+                                        전문가를<br/> 아래와 같이 모집하오니 많은 지원 바랍니다.</p>
+                                </div>
+                            </div>
+                            <table class="board_job_table">
+                                <tbody>
+                                    <tr>
+                                        <td>D-1</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">우간다 2025년 보건분야 신규사업 기획조사 전문가 선발 </a></th>
+                                        <td>2024.08.28</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-1</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">2025년도 르완다 그린 모빌리티 서비스 개선사업 기획조사 전문가 공모</a></th>
+                                        <td>2024.08.28</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="notice_end">마감</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">IFRC 분쟁취약지원 신규프로그램 Programme Manager 채용</a></th>
+                                        <td>2024.08.28</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="notice_end">마감</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">모잠비크 2026년 신규 후보 카템베 지역병원 건립 사업 형성조사 전문가 공모</a></th>
+                                        <td>2024.08.28</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="notice_end">마감</td>
+                                        <th><a href="sub_renewal_info.html" target="_parent">세네갈 및 감비아 2026년 신규사업 형성기획 전문가 선발 공고</a></th>
+                                        <td>2024.08.28</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+    
+                    <div id="board_right">
+                        <div id="board4">
+                            <div class="sns_menu">
+                                <h2>SNS</h2>
+                                <div id="sns_menu_icon">
+                                    <div class="sns_btn">
+                                        <input id="instargram" type="radio" name="sns" value="instargram" checked>
+                                        <label for="instargram"><i class="xi-instagram xi-2x"></i></label>
+                                    </div>
+                
+                                    <div class="sns_btn">
+                                        <input id="naver_blog" type="radio" name="sns" value="naver_blog">
+                                        <label for="naver_blog"><i class="xi-naver-square xi-2x"></i></button></label>
+                                    </div>
+                                    
+                                    <div class="sns_btn">
+                                        <input id="facebook" type="radio" name="sns" value="facebook">
+                                        <label for="facebook"><i class="xi-facebook-official xi-2x"></i></label>
+                                    </div>
+                                    
+                                    <div class="sns_btn">
+                                        <input id="youtube" type="radio" name="sns" value="youtube">
+                                        <label for="youtube"><i class="xi-youtube-play xi-2x"></i></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sns_contents">
+                                <ul class="contents_imgs">
+                                    <li><img src="images/section05/sns1.png" alt=""/></li>
+                                    <li><img src="images/section05/sns2.png" alt=""/></li>
+                                    <li><img src="images/section05/sns3.png" alt=""/></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div id="board5">
+                            <div id="popup_zone">
+                                <h2>POPUP ZONE</h2>
+                                <button><a href="sub_renewal_info.html" target="_parent"><img src="images/section03/more_btn.png" alt="더보기"></a></button>
+                            </div>
+    
+                            <div id="popup_zone_contents">
+                                <ul class="container2">
+                                    <li class="popup_info"><a href="sub_renewal_info.html" target="_parent"><img src="images/section05/popup.png" alt="KOICA 안전신고 제안제도 실시중!"/></a></li>
+                                    <li class="popup_info"><a href="sub_renewal_info.html" target="_parent"><img src="images/section05/popup2.png" alt="SOVAC와 함께하는 대한민국 사회적가치 페스타"/></a></li>
+                                    <li class="popup_info"><a href="sub_renewal_info.html" target="_parent"><img src="images/section05/popup3.png" alt="중소기업기술마켓 기관별 등록절차 및 혜택소개"/></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section><!--end: #section05-->
+            
+            <!--SECTION 06-->
+            <section id="section06" class="sec inner end">
+                <div id="WeKO_info">
+                    <div id="WeKO_header">
+                        <h2>KOICA Supporters</h2>
+                    </div>
+
+                    <div id="WeKO_swiper">
+                        <div id="WeKO_main_swiper">
+                            <ul class="container3">
+                                <li class="WeKO_main_item"><a href="sub_renewal_info.html" target="_parent"><img src="images/section06/images01.jpg"/></a></li>
+                                <li class="WeKO_main_item"><a href="sub_renewal_info.html" target="_parent"><img src="images/section06/images02.jpg"/></a></li>
+                                <li class="WeKO_main_item"><a href="sub_renewal_info.html" target="_parent"><img src="images/section06/images03.jpg"/></a></li>
+                                <li class="WeKO_main_item"><a href="sub_renewal_info.html" target="_parent"><img src="images/section06/images04.jpg"/></a></li>
+                            </ul>
+                        </div>
+    
+                        <div id="WeKO_sub_swiper">
+                            <ul class="container3">
+                                <li class="WeKO_main_item"><img src="images/section06/images01.jpg"/></li>
+                                <li class="WeKO_main_item"><img src="images/section06/images02.jpg"/></li>
+                                <li class="WeKO_main_item"><img src="images/section06/images03.jpg"/></li>
+                                <li class="WeKO_main_item"><img src="images/section06/images04.jpg"/></li>
+                            </ul>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section><!--end: #section06-->
+
+            <footer class="sec">
+                <div id="footer_background">
+                    <div id="footer_top" class="inner">
+                        <div id="footer_top_list">
+                            <ul>
+                                <li><a href="sub_renewal_info.html" target="_parent">개인정보 처리방침</a></li>
+                                <li><a href="sub_renewal_info.html" target="_parent">책임의 한계 및 법적고지</a></li>
+                                <li><a href="sub_renewal_info.html" target="_parent">이메일주소 무단수집거부</a></li>
+                            </ul>
+                        </div>
+                            
+                        <nav id="footer_sns">
+                            <ul>
+                                <li><a href="sub_renewal_info.html" target="_parent" target="_blank"><i class="xi-instagram xi-2x"></i></a></li>
+                                <li><a href="sub_renewal_info.html" target="_parent" target="_blank"><i class="xi-naver-square xi-2x"></i></a></li>
+                                <li><a href="sub_renewal_info.html" target="_parent" target="_blank"><i class="xi-facebook-official xi-2x"></i></a></li>
+                                <li><a href="sub_renewal_info.html" target="_parent" target="_blank"><i class="xi-youtube-play xi-2x"></i></a></li>
+                            </ul>
+                        </nav>
+        
+                        <div id="footer_logo">
+                            <p><img src="images/footer/f_logo.png"></p>
+                        </div>
+        
+                        <div id="copyright">
+                            <ul>
+                                <li>13449 경기도 성남시 수정구 대왕판교로 825 한국국제협력단</li>
+                                <li>사업자등록번호: 208-82-03816</li>
+                                <li>TEL: 1588-0434</li>
+                                <li>FAX: 031&#41;740-0260</li>
+                            </ul>
+                            <p>COPYRIGHT&#169; KOREA INTERNATIONAL COOPERATION AGENCY ALL RIGHTS RESERVED.</p>
+                            <p>
+                                본 홈페이지에 게시된 이메일주소 자동수집을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.<br/>
+                                본 사이트는 장애인들의 사용 편의성을 위해 “웹접근성지침”을 준수하고 있습니다.
+                            </p>
+                        </div>
+                    </div><!--end: #footer_top-->
+        
+                    <div id="footer_bottom" class="inner">
+                        <div id="banner" dir="ltr">
+                            <ul class="wrap">
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner1.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner2.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner3.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner4.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner5.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner6.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner7.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner8.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner9.png"/></a></li>
+                                <li class="item"><a href="sub_renewal_info.html" target="_parent"><img src="images/footer/banner10.png"/></a></li>
+                            </ul>
+                        </div>
+        
+                        <div id="wa_mark">
+                            <ul class="mark_position">
+                                <li><img src="images/footer/WAmark.png" alt="웹접근성인증마크"/></li>
+                                <li><img src="images/footer/IASmark.png" alt="IAS 인증마크"/></li>
+                            </ul>
+                        </div>
+                    </div><!--end: #footer_bottom-->
+                </div>
+            </footer>
+        </main>
+        <div class="pager"></div>
+    </div>
+
+    <!--푸터--
+
+    <!--
+    <div id="quickmenu">
+        <div id="quickmenu_hamburgerbar"><i class="xi-bars"></i></div>
+        <div id="quickmenu_content">
+            <ul>
+                <li><a href="#"><img src="images/quickmenu/icon_1.png"/>국민 참여 일자리</a></li>
+                <li><a href="#"><img src="images/quickmenu/icon_2.png"/>형태별 지원 현황</a></li>
+                <li><a href="#"><img src="images/quickmenu/icon_3.png"/>분야별 지원 현황</a></li>
+                <li><a href="#"><img src="images/quickmenu/icon_4.png"/>입찰 정보</a></li>
+                <li><a href="#"><img src="images/quickmenu/icon_5.png"/>지역별 지원현황</a></li>
+                <li><a href="#"><img src="images/quickmenu/icon_6.png"/>ODA 지식정보</a></li>
+            </ul>
+        </div>
+    </div>
+    -->
+
+    <div id="top_button"><p><img src="images/top_btn.png" alt=""/></p></div>
+
+    <!--Swiper 호출-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--플러그인 호출-->   
+    <script src="js/script.js"></script>
+</body>
+</html>

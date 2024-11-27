@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  max-width: 1561px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#info_box {
+  width: 201px;
+  height: 157px;
+  position: absolute;
+  background: url("../images/nara_btn.png");
+  transform: translate(-50%, -100%);
+}
+
+.country_name {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.office_name {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.address {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.phone_number {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.email {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}

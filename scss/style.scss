@@ -553,14 +553,14 @@ main{
         .swiper-pagination-bullet-active{background: var(--main_color); opacity: 1;}
     }
 
-    .swiper-button-prev{
-        position: absolute; top: 46%; left: 27%;
+    .swiper-button-prev{ cursor: pointer;
+        position: absolute; top: 46%; left: 24%;
         background: url(../images/section04/prev.png) no-repeat;
         width: 21px; height: 43px;
     }
 
-    .swiper-button-next{
-        position: absolute; top: 46%; left: 71%;
+    .swiper-button-next{ cursor: pointer;
+        position: absolute; top: 46%; left: 75%;
         background: url(../images/section04/next.png) no-repeat;
         width: 26px; height: 43px;
     }

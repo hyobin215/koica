@@ -42,12 +42,6 @@ body {
   outline-style: none;
   color: var(--main_color);
 }
-.search_bar .search input[type=text]::-moz-placeholder {
-  color: var(--main_color);
-  font-size: 13px;
-  opacity: 0.8;
-  cursor: pointer;
-}
 .search_bar .search input[type=text]::placeholder {
   color: var(--main_color);
   font-size: 13px;
@@ -179,9 +173,6 @@ header #header_box.show .search input[type=text] {
 }
 header #header_box.show .search button[type=submit] {
   content: url("../images/header/search.png");
-}
-header #header_box.show .search input[type=text]::-moz-placeholder {
-  color: var(--main_color);
 }
 header #header_box.show .search input[type=text]::placeholder {
   color: var(--main_color);
